@@ -1,0 +1,61 @@
+package Noisy;
+
+
+import Media.*;                  // for Picture and PictureDisplayer
+import java.awt.*;               // for Color objects and methods
+import static java.lang.Math.*;  // for math constants and functions
+import static java.awt.Color.*;  // for Color constants
+
+
+/** This class ...
+  *
+  * @author <your name>
+  * @version 1.0 (<date>)                                                        */
+
+public class Noisy {
+    
+    
+    // instance variables
+    
+    
+    /** This constructor ...                                                     */
+    
+    public Noisy ( ) {
+      Sound theSound;
+      theSound = new Sound();
+      
+      player = new SoundPlayer();
+      
+      player.placeSound(theSound);
+      
+      player.waitForUser();
+      
+      makeNoisy(theSound, NOISE_LEVEL);
+      
+      player.close();
+      
+      theSound.save();
+        
+    }; // constructor
+    
+    
+    // methods
+    
+    private void makeNoisy( Sound aSound, int nAmp){
+     
+      Sample s;
+      int amp;
+      int newAmp;
+      
+      while ( ASound.hasNext()) {
+       s = aSound.next(); 
+      }
+      
+    }
+
+    
+    
+    public static void main ( String[] args ) { <className> s = new <className>(); };
+    
+    
+} // <className>

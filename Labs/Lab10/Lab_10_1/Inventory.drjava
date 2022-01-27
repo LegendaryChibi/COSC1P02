@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="" main="" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="MakeInvFile.java" package="Lab_10_1" timestamp="26-Nov-2021 15:33:51">
+        <select from="657" to="78"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Inventory.java" package="Lab_10_1" timestamp="26-Nov-2021 15:06:45">
+        <select from="657" to="78"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Item.java" package="Lab_10_1" timestamp="26-Nov-2021 15:22:51">
+        <select from="657" to="78"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="" main="" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Inventory.java" package="Lab_8_1" timestamp="12-Nov-2021 15:49:17">
+        <select from="3173" to="3173"/>
+        <scroll column="1146" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

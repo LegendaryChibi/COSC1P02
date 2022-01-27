@@ -1,0 +1,21 @@
+package Lab2_1;
+
+import Media.*;
+import static java.lang.Math;
+
+/**
+ * Auto Generated Java Class.
+ */
+public class Starburst {
+  public Starburst() { 
+    
+    /* YOUR CONSTRUCTOR CODE HERE*/
+  }
+  
+  public static void main(String[] args) { 
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

@@ -1,0 +1,45 @@
+package Lav_10_1;
+
+
+import BasicIO.*;                // for IO classes
+import static BasicIO.Formats.*; // for field formats
+import static java.lang.Math.*;  // for math constants and functions
+
+
+/** This class ...
+  *
+  * @author <your name>
+  * @version 1.0 (<date>)                                                        */
+
+public class MakeInvFile {
+  
+  
+  // instance variables
+  
+  
+  /** This constructor ...                                                     */
+  
+  public MakeInvFile ( ) {
+    public ASCIIDataFile InvData;
+    public BinaryOutputFile newInvData;
+    public ASCIIDisplayers display;
+    
+    public MakeInvFile(){
+      invData = new ASCIIDataFile();
+      newInvData = new BinaryOutputFile();
+      display = new ASCIIDisplayer();
+      
+      
+    }
+    
+  }; // constructor
+  
+  
+  // methods
+  
+  
+  // For main classes only:
+  public static void main ( String[] args ) { MakeInvFile m = new MakeInvFile(); };
+  
+  
+} // <className>
