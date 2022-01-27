@@ -1,0 +1,78 @@
+package Assign_4;
+
+
+import Media.*;                  // for Picture and PictureDisplayer
+import java.awt.*;               // for Color objects and methods
+import static java.lang.Math.*;  // for math constants and functions
+import static java.awt.Color.*;  // for Color constants
+
+
+/** This class ...
+  *
+  * @author Joshua Varghese
+  * @version 1.0 (November 11, 2021)                                                        */
+
+public class Quantization {
+  
+  
+  private PictureDisplayer display;
+    
+  
+  
+    public Quantization ( ) {
+      
+      Picture thePic;
+      display = new PictureDisplayer();
+      thePic = new Picture();
+      display.placePicture(thePic);
+      display.waitForUser();
+      ChannelIsolater(thePic);
+      display.close();
+        
+    }; // constructor
+    
+    
+    private void ChannelIsolater(Picture pic) {
+      Pixel x;
+      int r;
+      int g;
+      int b;
+      int average;
+      
+      while(pic.hasNext()){
+        x = pic.next();
+        r = x.getRed();
+        g = x.getGreen();
+        b = x.getBlue();
+        average = (r + g + b)/3;
+        
+        if (r >= g & r >= b) {
+          x.setRed((int) (average));
+          x.setGreen((int) (0));
+          x.setBlue((int) (0));
+        }
+        else if(g  >= r & g >= b) {
+          x.setRed((int) (0));
+          x.setGreen((int) (average));
+          x.setBlue((int) (0));
+        }
+        else if (b >= r & b >= g) {
+          x.setRed((int) (0));
+          x.setGreen((int) (0));
+          x.setBlue((int) (average));
+        }
+        else {
+          x.setRed((int) (0));
+          x.setGreen((int) (0));
+          x.setBlue((int) (0));
+        }
+        
+      }
+      
+    }
+    
+    
+    public static void main ( String[] args ) { Quantization q = new Quantization(); };
+    
+    
+} // <className>

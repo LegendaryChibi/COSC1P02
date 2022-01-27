@@ -1,0 +1,40 @@
+package Assign_6;
+
+
+import Media.*;                  // for Picture and PictureDisplayer
+import java.awt.*;               // for Color objects and methods
+import static java.lang.Math.*;  // for math constants and functions
+import static java.awt.Color.*;  // for Color constants
+
+
+/** This class ...
+  *
+  * @author <your name>
+  * @version 1.0 (<date>)                                                        */
+
+public class HonourList {
+    
+    
+    private ASCIIDataFile    invData;     // data file for inventory info
+    private ASCIIPrompter    prompter;    // prompter for user input
+    private ASCIIOutputFile  newInvData;  // new (updated) inventory file
+    private ReportPrinter    report;      // printer for report
+    private BasicForm display;                                                */
+    
+    public HonourList ( ) {
+
+        // local variables
+        
+        // statements including call to method
+        
+    }; // constructor
+    
+    
+    // methods
+
+    
+    
+    public static void main ( String[] args ) { HonourList h = new HonourList(); };
+    
+    
+} // <className>

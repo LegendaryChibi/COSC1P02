@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="" main="" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Quantization.java" package="Assign_4" timestamp="11-Nov-2021 21:27:03">
+        <select from="2651" to="2651"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="ChannelSelection.java" package="Assign_4" timestamp="11-Nov-2021 21:27:04">
+        <select from="2651" to="2651"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
